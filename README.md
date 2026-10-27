@@ -41,7 +41,15 @@ An embedded-systems mini project: an MSP430 LaunchPad reads eight DIP switches t
 | TIP121 base (PWM) | `P1_6` | output |
 | Potentiometer | `P1_4` (A4) | analog input |
 
-![Wiring](docs/images/wiring.png)
+### System block diagram
+
+![Block diagram](docs/images/block-diagram.svg)
+
+### Schematic
+
+![Schematic](docs/images/schematic.svg)
+
+The schematic was drawn from the firmware pin map and is a drawing, not an EDA project or a netlist. Items marked with `*` on the drawing (pull-down and segment resistor values, decoder control pins, display type, TIP121 placement and PWM polarity) should be checked against the physical build. Net labels with the same name are connected.
 
 ## How it works
 
@@ -106,7 +114,7 @@ msp430-keypad-display-v1/
 ├── LICENSE
 ├── firmware/mini_project_v1/mini_project_v1.ino
 ├── gui/mini_project_gui/mini_project_gui.pde
-└── docs/images/               # photo of the board, GUI screenshot, own wiring sketch
+└── docs/images/               # block-diagram.svg/.png, schematic.svg/.png, photo of the board, GUI screenshot
 ```
 
 ## License
