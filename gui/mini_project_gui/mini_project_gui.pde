@@ -70,7 +70,7 @@ void draw(){
   text("St. number:", 10, 20); 
   textSize(50); 
   fill(0); 
-  text("123456789", 60, 70); 
+  text("12345678", 60, 70); 
 
   switch_status(); // function to show switches status  
 
