@@ -28,7 +28,7 @@
 
 int PWM_Value = 0;
 
-int st_num[15] = {0, 10, 0, 10, 0, 10, 4, 10, 7, 10, 4, 10, 7, 10, 0}; //array for student num
+int st_num[15] = {1, 10, 2, 10, 3, 10, 4, 10, 5, 10, 6, 10, 7, 10, 8}; //array for student num
 bool sw_stat[8] = {0}; // array for switch statuses
 
 int display_swnum = 10; // var. that shows which switch is turned on
