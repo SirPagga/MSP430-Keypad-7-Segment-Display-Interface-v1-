@@ -43,11 +43,11 @@ An embedded-systems mini project: an MSP430 LaunchPad reads eight DIP switches t
 
 ### System block diagram
 
-![Block diagram](docs/images/block-diagram.svg)
+![Block diagram](docs/images/block-diagram.png)
 
 ### Schematic
 
-![Schematic](docs/images/schematic.svg)
+![Schematic](docs/images/schematic.png)
 
 The schematic was drawn from the firmware pin map and is a drawing, not an EDA project or a netlist. Items marked with `*` on the drawing (pull-down and segment resistor values, decoder control pins, display type, TIP121 placement and PWM polarity) should be checked against the physical build. Net labels with the same name are connected.
 
